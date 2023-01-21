@@ -1,0 +1,124 @@
+@use "../global.scss";
+
+main {
+    padding-top: 150px;
+}
+
+.cards-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 35px;
+    grid-row-gap: 40px;
+
+    .card-3 {
+        img {
+            width: 100%;
+        }
+        background: #FFFFFF;
+        border: 1px solid rgba(36, 36, 36, 0.1);
+        border-radius: 14px;
+
+        .card-3__div {
+            padding: 20px 20px 30px;
+
+            h1 {
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 32px;
+                /* or 133% */
+
+                text-transform: capitalize;
+                font-feature-settings: 'tnum' on, 'lnum' on;
+
+                color: #242424;
+                max-width: 332px;
+            }
+
+            p {
+                padding: 10px 0 20px ;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 24px;
+                /* or 171% */
+
+
+                /* AAAAAA */
+
+                color: #AAAAAA;
+                max-width: 361px;
+            }
+
+            div {
+                display: flex;
+                justify-content: space-between;
+
+                a {
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 16px;
+                    /* identical to box height */
+
+                    letter-spacing: 0.04em;
+
+                    /* qizil */
+
+                    color: #BB2339;
+
+                }
+                p {
+                    padding: 0 ;
+                }
+            }
+        }
+    }
+}
+
+.button {
+    text-align: center;
+    margin: 70px 0 147px;
+
+    button {
+        padding: 8px 32px;
+        border: 1px solid #BB2339;
+        border-radius: 100px;
+        background-color: transparent;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 175%;
+        letter-spacing: 0.04em;
+        color: #242424;
+
+    }
+
+    button:hover {
+        transition: 0.5s;
+        background-color: #BB2339;
+        color: white;
+    }
+}
+
+.p {
+    padding: 70px 0 ;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 130%;
+    /* or 83px */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+
+    color: #242424;
+    
+}
+@media (max-width:1300px) {
+    .cards-3 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width:700px) {
+    .cards-3 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

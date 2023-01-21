@@ -1,0 +1,51 @@
+@use "../global.scss";
+
+
+.container-2 {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 10px ;
+}
+
+
+.kjh {
+    padding-bottom: 130px;
+    img {
+        padding: 30px 0 ;
+        width: 100%;
+    }
+    h1 {
+        font-weight: 500;
+        font-size: 64px;
+        line-height: 130%;
+        /* or 83px */
+
+        text-align: center;
+        letter-spacing: 0.03em;
+        text-transform: capitalize;
+        font-feature-settings: 'tnum' on, 'lnum' on;
+
+        color: #242424;
+        padding: 70px 0 57px;
+    }
+
+    p {
+        max-width: 720px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        /* or 160% */
+
+        letter-spacing: 0.04em;
+
+        color: #242424;
+
+        opacity: 0.8;
+        ;
+    }
+}
+footer {
+    img {
+        width: 100%;
+    }
+}

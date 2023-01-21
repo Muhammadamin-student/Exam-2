@@ -1,0 +1,188 @@
+.footer-b {
+    img {
+        width: 100% !important;
+    }
+    background: #BB2339;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 22px 30px 95px 1px rgba(86, 86, 86, 0.2);
+    border-radius: 20px;
+    position: absolute;
+    top: 7px;
+    z-index: 987;
+    right: 0;
+    left: 0;
+    p {
+        padding-top: 64px;
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 130%;
+        /* identical to box height, or 30px */
+
+        letter-spacing: 0.04em;
+        text-transform: capitalize;
+        font-feature-settings: 'tnum' on, 'lnum' on;
+
+        /* FFFFFF */
+
+        color: #FFFFFF;
+    }
+
+    h1 {
+        padding: 24px 0;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 130%;
+        /* or 62px */
+
+        letter-spacing: 0.03em;
+        text-transform: capitalize;
+        font-feature-settings: 'tnum' on, 'lnum' on;
+
+        color: #FFFFFF;
+    }
+
+    h4 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 175%;
+        /* identical to box height, or 28px */
+
+        letter-spacing: 0.04em;
+
+        color: #FFFFFF;
+        padding-bottom: 64px;
+    }
+
+    div {
+
+        display: flex;
+        max-width: 811px;
+        margin: 0 auto;
+        padding-bottom: 64px;
+        justify-content: space-between;
+
+        input {
+            border: 1px solid rgba(245, 239, 219, 0.5);
+            border-radius: 100px;
+            padding: 12px 400px 12px 12px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 175%;
+            /* identical to box height, or 28px */
+
+            text-align: center;
+            letter-spacing: 0.04em;
+            text-transform: capitalize;
+            font-feature-settings: 'tnum' on, 'lnum' on;
+
+            /* AAAAAA */
+
+            color: #AAAAAA;
+            background-color: transparent;
+        }
+
+        button {
+            background-color: transparent;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 175%;
+            /* identical to box height, or 28px */
+
+            letter-spacing: 0.04em;
+
+            color: #FFFFFF;
+
+            border: 1px solid #FFFFFF;
+            border-radius: 100px;
+            padding: 12px 32px;
+        }
+
+        button:hover {
+            background-color: #fff;
+            color: #BB2339;
+            transition: 0.5s;
+        }
+    }
+}
+footer {
+    position: relative;
+    padding-top: 340px ;
+}
+
+.footer-b * {
+    text-align: center;
+}
+
+.footer-end {
+    padding-top: 317px ;
+    position: relative;
+    background-color: #BB2339;
+    .footer-card {
+        h2 {
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 130%;
+            /* identical to box height, or 42px */
+
+            letter-spacing: 0.04em;
+            text-transform: capitalize;
+            font-feature-settings: 'tnum' on, 'lnum' on;
+
+            color: #FFFFFF;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            /* or 162% */
+
+            letter-spacing: 0.04em;
+
+            color: #FFFFFF;
+        }
+    }
+}
+.jhsrgu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.footer-end * {
+    text-align: center;
+}
+.pading {
+    padding: 24px 0 10px ;
+}
+.pading-2 {
+    padding: 32px 47px ;
+}
+.ycgvhbj{
+    padding: 87px 0 40px ;
+}
+
+@media (max-width: 800px) {
+    .footer-b{
+        div {
+            flex-direction: column;
+            text-align: center;
+            input {
+                width: 100%;
+                padding: 0 ;
+            }
+            button {
+                width: 144px ;
+                max-width: 144px;
+                margin: 20px auto 0;
+            }
+        }
+    }
+    .jhsrgu {
+        display: grid;
+        grid-template-columns:repeat(2, 1fr) !important    ;
+    }
+}
+@media (max-width: 600px) {
+    .jhsrgu {
+        grid-template-columns: 1fr !important;
+    }
+}

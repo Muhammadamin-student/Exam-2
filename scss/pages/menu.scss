@@ -1,0 +1,92 @@
+@use "../global.scss";
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) !important;
+    grid-column-gap: 20px;
+    padding-top: 40px;
+
+    .card {
+        padding: 20px 20px 40px;
+        background: #FFFFFF;
+        border-color: #FFFFFF;
+        border-radius: 14px;
+
+        p {
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 25px;
+            color: #242424;
+            max-width: 270px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 33px;
+            color: #BB2339;
+        }
+    }
+
+    .card * {
+        text-align: center;
+    }
+}
+
+.card-2 {
+    background: #FFFFFF;
+    border: 1px solid rgba(36, 36, 36, 0.1) !important;
+    border-radius: 14px;
+}
+
+.menu {
+    padding-top: 159px !important;
+    padding-bottom: 200px !important;
+    display: flex;
+    .menu-l {
+        padding: 50px 40px ;
+        height: 844px;
+        background-color: #BB2339;
+        border-radius: 20px;
+        p {
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 54px;
+            /* or 135% */
+
+            text-transform: capitalize;
+            font-feature-settings: 'tnum' on, 'lnum' on;
+
+            color: #FFFFFF;
+            max-width: 348px ;
+
+        }
+
+        button {
+            background-color: transparent;
+            margin-top: 20px;
+            padding: 10px 30px;
+            border: 1px solid #FFFFFF;
+            border-radius: 100px;
+            white-space: nowrap;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 175%;
+            /* identical to box height, or 28px */
+
+            letter-spacing: 0.05em;
+            text-transform: capitalize;
+
+            color: #FFFFFF;
+        }
+
+        button:hover {
+            background: #FFFFFF;
+            border: 1px solid #FFFFFF;
+            border-radius: 100px;
+            color: black;
+            transition: 0.7s;
+        }
+    }
+}
